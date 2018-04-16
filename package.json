@@ -1,0 +1,28 @@
+{
+  "name": "crimson-tools",
+  "version": "1.0.0",
+  "description": "A Simple NPM toolbox for useful things ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crimson-med/Crimson-Tools.git"
+  },
+  "keywords": [
+    "javascript",
+    "toolbox",
+    "request",
+    "proxy"
+  ],
+  "author": "Mederic Burlet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crimson-med/Crimson-Tools/issues"
+  },
+  "homepage": "https://github.com/crimson-med/Crimson-Tools#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
