@@ -4,7 +4,7 @@
   "description": "A Simple NPM toolbox for useful things ",
   "main": "app.js",
   "bin": {
-    "crimson-tools": "dist/CommandLine.js"
+    "crimson-tools": "src/CommandLine.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,6 +28,6 @@
   "dependencies": {
     "axios": "^0.18.0",
     "colors": "^1.2.1",
-    "yargs": "^11.0.0"
+    "yargs": "^11.1.0"
   }
 }

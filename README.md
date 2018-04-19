@@ -11,7 +11,7 @@ A Simple NPM toolbox for useful things
 ![Example of progress](res/proxyList.gif)
 
 # Output Example
-
+ 
 ```
 195.83.197.229:80
 176.31.182.77:80
