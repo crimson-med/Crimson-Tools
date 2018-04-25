@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-const argv = require('yargs').argv
-
-if (argv.ships > 3 && argv.distance < 53.5) {
-  console.log('Plunder more riffiwobbles!')
-} else {
-  console.log('Retreat from the xupptumblers!')
+const argv = require('yargs').argv;
+if (argv.tool == "proxy"){
+  if (argv.number == null){
+    console.log("\nYou need to specify the number of proxies please try:\n\ncrimson-tools --tool help \n\n")
+  }
 }
+console.log(argv.test);
