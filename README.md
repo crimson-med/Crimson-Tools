@@ -11,7 +11,7 @@ A Simple NPM toolbox for useful things
 ![Example of progress](res/proxyList.gif)
 
 # Output Example
- 
+
 ```
 195.83.197.229:80
 176.31.182.77:80
@@ -24,10 +24,14 @@ A Simple NPM toolbox for useful things
 195.83.197.148:80
 51.15.65.152:8118
 ```
+# Github
+
+[Contribute here to the project](https://github.com/crimson-med/Crimson-Tools)
 
 # To Do
 
- - Handle if cant connect to any proxy server
+ - TODO: Handle if cant connect to any proxy server
+ - TODO: add the cli interpreter (linked to projet not just testing)
 
 # Contact Me
 
