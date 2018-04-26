@@ -8,7 +8,37 @@ A Simple NPM toolbox for useful things
  - Get proxies from specific country
  - Write the proxies to a file
 
-![Example of progress](res/proxyList.gif)
+![Example of progress](./res/proxyList.gif)
+
+# CLI Information
+
+----------------------------------------------
+Crimson Tools
+----------------------------------------------
+
+ ```
+ crimson-tools --tool type --optionalToolParameter optionalToolParameterValue
+ ```
+
+----------------------------------------------
+Tool Types:
+----------------------------------------------
+ --- `help`
+
+ --- `proxy`
+
+ ------ `proxyNumber` = number of proxy to find eg: 5
+
+ ------ `country` (optional) = two letter string eg: fr
+
+----------------------------------------------
+Command examples:
+----------------------------------------------
+```
+ crimson-tools --tool help
+ crimson-tools --tool proxy --proxyNumber 5
+ crimson-tools --tool proxy --proxyNumber 5 --country fr
+ ```
 
 # Output Example
 

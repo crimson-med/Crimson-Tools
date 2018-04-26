@@ -14,7 +14,7 @@ module.exports = {
         progressLast = progressLast + "-";
       }
     }
-    progress = "[" + colors.green(progressFirst) + colors.yellow(progressLast)+"]";
+    progress = " [" + colors.green(progressFirst) + colors.yellow(progressLast)+"]";
     process.stdout.write(progress + "   proxy "+(currentValue)+"/"+totalValue);
     return "written";
   }
