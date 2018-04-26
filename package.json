@@ -1,6 +1,6 @@
 {
   "name": "crimson-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Simple NPM toolbox for useful things ",
   "main": "app.js",
   "bin": {
