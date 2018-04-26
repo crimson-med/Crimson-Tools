@@ -2,27 +2,29 @@
 
 A Simple NPM toolbox for useful things
 
+remember to use: `npm install && npm link`
 # Done
 
  - Get certain number of proxies
  - Get proxies from specific country
  - Write the proxies to a file
+ - Add the CLI interpreter
 
 ![Example of progress](./res/proxyList.gif)
 
 # CLI Information
 
-----------------------------------------------
+---
 Crimson Tools
-----------------------------------------------
+---
 
  ```
  crimson-tools --tool type --optionalToolParameter optionalToolParameterValue
  ```
 
-----------------------------------------------
+---
 Tool Types:
-----------------------------------------------
+---
  --- `help`
 
  --- `proxy`
@@ -31,9 +33,9 @@ Tool Types:
 
  ------ `country` (optional) = two letter string eg: fr
 
-----------------------------------------------
+---
 Command examples:
-----------------------------------------------
+---
 ```
  crimson-tools --tool help
  crimson-tools --tool proxy --proxyNumber 5
@@ -61,7 +63,6 @@ Command examples:
 # To Do
 
  - TODO: Handle if cant connect to any proxy server
- - TODO: add the cli interpreter (linked to projet not just testing)
 
 # Contact Me
 
