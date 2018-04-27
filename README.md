@@ -2,7 +2,41 @@
 
 A Simple NPM toolbox for useful things
 
-remember to use: `npm install && npm link`
+Suggestions are welcome! Please don't hesitate to contact me for ideas.
+
+# Installation
+
+## Global Use
+
+To use **Crimson Tools** globally it is a simple as:
+
+```js
+npm install -g crimson-tools
+```
+
+## In Project use
+
+first install the package with
+
+```js
+npm install crimson-tools
+```
+
+Then you simply need to require it and use the function(s):
+
+```js
+const crimsonTools = require('crimson-tools');
+```
+
+### Example
+
+```js
+// Require the Crimson Tools
+const crimsonTools = require('crimson-tools');
+// Get 5 proxies from France
+crimsonTools.getProxy(5,"fr");
+```
+
 # Done
 
  - Get certain number of proxies
