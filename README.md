@@ -37,6 +37,14 @@ const crimsonTools = require('crimson-tools');
 crimsonTools.getProxy(5,"fr");
 ```
 
+The `getProxy` function returns an array of proxies.
+
+The `getProxy` function by default is logged you can always cancel logging as follows
+
+```js
+crimsonTools.getProxy(5,"fr", false);
+```
+
 # Done
 
  - Get certain number of proxies
@@ -97,8 +105,9 @@ Command examples:
 
 # To Do
 
- - TODO: Handle if cant connect to any proxy server
- - TODO: Add a system to hide all the logs
+ - TODO: Handle if can't connect to any proxy server
+ - TODO: Add concat for the file instead of overiding on each call.
+ - TODO: Add more proxy websites
 
 # Contact Me
 

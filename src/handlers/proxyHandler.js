@@ -6,8 +6,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 module.exports = {
   //Main background download function
-  getProxy: async function(proxyNumber, country) {
-    console.log();
+  getProxy: async function(proxyNumber, country, logged = true) {
     let countryParameter = '';
     let outputText = '\n All '+colors.green(proxyNumber)+' proxies where saved in '+colors.green('crimsonList.txt\n');
     if (country !== undefined){
@@ -25,7 +24,9 @@ module.exports = {
       const url_toget = proxies[Math.floor(Math.random() * (proxies.length))];
       try {
         const receivedProxy = await getProxy(url_toget);
-        const test = await loggerHandler.renderProgressBar(results.length+1, proxyNumber);
+        if (logged){
+          const test = await loggerHandler.renderProgressBar(results.length+1, proxyNumber);
+        }
         results.push(receivedProxy);
       } catch (e) {
       }
@@ -37,8 +38,11 @@ module.exports = {
         stream.write(`${results[i].ip}:${results[i].port}\n`);
       }
       stream.end();
-      console.log(outputText);
+      if (logged){
+        console.log(outputText);
+      }
     });
+    return results;
   },
 }
 async function getProxy(url){
