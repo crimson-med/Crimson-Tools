@@ -9,6 +9,7 @@ remember to use: `npm install && npm link`
  - Get proxies from specific country
  - Write the proxies to a file
  - Add the CLI interpreter
+ - Add the wrapper function
 
 ![Example of progress](./res/proxyList.gif)
 
@@ -63,6 +64,7 @@ Command examples:
 # To Do
 
  - TODO: Handle if cant connect to any proxy server
+ - TODO: Add a system to hide all the logs
 
 # Contact Me
 
