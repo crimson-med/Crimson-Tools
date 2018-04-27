@@ -5,7 +5,8 @@ const proxyHandler = require('./src/handlers/proxyHandler');
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 module.exports = {
-  start: function (){
-    proxyHandler.getProxy("fr",5);
-  },
+  //TODO: Add wrapper function for require if project is included instead of just called from CLI
+  getProxy: function(proxyNumber, country){
+    proxyHandler.getProxy(proxyNumber, country);
+  }
 }
