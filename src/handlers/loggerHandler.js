@@ -1,4 +1,4 @@
-const colors = require('colors/safe');
+const colors = require("colors/safe");
 
 module.exports = {
   renderProgressBar: async function (currentValue, totalValue){
@@ -18,4 +18,4 @@ module.exports = {
     process.stdout.write(progress + "   proxy "+(currentValue)+"/"+totalValue);
     return "written";
   }
-}
+};

@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require("fs");
 const colors = require("colors/safe");
 const proxyHandler = require("./src/handlers/proxyHandler");
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 module.exports = {
   // Wrapper function to easily require in project
@@ -12,4 +12,4 @@ module.exports = {
     // Pass the result
     return result;
   }
-}
+};
