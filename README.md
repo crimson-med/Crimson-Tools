@@ -1,5 +1,3 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4a534bfbbcb443f7af91fe9502396d65)](https://www.codacy.com/app/mederic.burlet/Crimson-Tools?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=crimson-med/Crimson-Tools&amp;utm_campaign=Badge_Grade)
-
 # Crimson-Tools
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3d2e4f24896f48858424268d1d401451)](https://app.codacy.com/app/mederic.burlet/Crimson-Tools?utm_source=github.com&utm_medium=referral&utm_content=crimson-med/Crimson-Tools&utm_campaign=badger)
