@@ -1,12 +1,12 @@
-const axios = require('axios');
-const fs = require('fs');
-const colors = require('colors/safe');
-const loggerHandler = require('./loggerHandler.js')
+const axios = require("axios");
+const fs = require("fs");
+const colors = require("colors/safe");
+const loggerHandler = require("./loggerHandler.js")
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 module.exports = {
   //Main background download function
-  getProxy: async function(proxyNumber, country, logged = true) {
+  getProxies: async function(proxyNumber, country, logged = true) {
     let countryParameter = '';
     let outputText = '\n All '+colors.green(proxyNumber)+' proxies where saved in '+colors.green('crimsonList.txt\n');
     if (country !== undefined){
@@ -44,7 +44,7 @@ module.exports = {
     });
     return results;
   },
-}
+};
 async function getProxy(url){
   return new Promise((resolve, reject) => {
     axios.get(url).then(function (response) {
