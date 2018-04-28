@@ -12,4 +12,4 @@ If you have any **ideas** that you would like to share to the project please con
 
  - :envelope: Email: [mederic.burlet@gmail.com](mederic.burlet@gmail.com)
  
- - :mount_fuji: Discord: https://discord.gg/swU74Fm
+ - :mount_fuji: Discord: [https://discord.gg/2DeDe2Q](https://discord.gg/2DeDe2Q)
