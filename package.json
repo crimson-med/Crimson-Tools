@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/crimson-med/Crimson-Tools#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "colors": "^1.2.1",
     "yargs": "^11.1.0"
   },
